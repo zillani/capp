@@ -1,2 +1,4 @@
-# capp
-Restful webservice using c++
+# cpp-snippets
+
+## Add executable
+[add executable](https://github.com/corochann/SingleFileExecutionPlugin)
