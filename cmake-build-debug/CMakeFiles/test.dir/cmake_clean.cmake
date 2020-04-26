@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/main.cpp.obj"
-  "libtest.dll.a"
-  "test.exe"
-  "test.exe.manifest"
+  "CMakeFiles/test.dir/src/dao/dao.cpp.o"
+  "test"
   "test.pdb"
 )
 

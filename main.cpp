@@ -1,6 +1,7 @@
-#include <iostream>
+#include "src/dao.h"
 
 int main() {
-    std::cout << "Hello, World!";
+    Dao dao;
+    dao.connect();
     return 0;
 }

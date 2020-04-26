@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.obj"
-  "liblisting_2.8.dll.a"
-  "listing_2.8.exe"
-  "listing_2.8.exe.manifest"
+  "CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.o"
+  "listing_2.8"
   "listing_2.8.pdb"
 )
 

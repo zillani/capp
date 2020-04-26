@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/shaik/cpp-snippets/concurrency/manning/listings/listing_1.1.cpp
+/root/capp/dao/test.cpp
+cstdlib
+-
 iostream
 -
-thread
+cppconn/driver.h
+-
+cppconn/exception.h
 -
 

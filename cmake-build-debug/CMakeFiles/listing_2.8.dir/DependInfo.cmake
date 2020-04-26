@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/shaik/cpp-snippets/concurrency/manning/listings/listing_2.8.cpp" "C:/Users/shaik/cpp-snippets/cmake-build-debug/CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.obj"
+  "/root/capp/concurrency/manning/listings/listing_2.8.cpp" "/root/capp/cmake-build-debug/CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
