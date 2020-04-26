@@ -1,7 +1,3 @@
-//
-// Created by root on 4/26/20.
-//
-
 #ifndef CPAP_ROUTER_H
 #define CPAP_ROUTER_H
 
@@ -17,7 +13,8 @@ namespace Cpap {
                 return "Hello world";
             });
 
-            app.port(8080).multithreaded().run();
+            app.port(8888).multithreaded().run();
+            return 0;
         }
     };
 }

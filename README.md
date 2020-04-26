@@ -35,3 +35,8 @@ sudo make install
 ```
 
 ## understanding cmake
+
+## build crow
+```bash
+g++ main.cpp -o main -lpthread -lboost_system -Wall -I/usr/include/cppconn -L/usr/lib -lmysqlcppconn
+```
