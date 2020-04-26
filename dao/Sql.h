@@ -14,19 +14,16 @@ using namespace std;
 using namespace sql;
 namespace Cpap {
     namespace Dao {
+        sql::Driver *driver;
+        sql::Connection *con;
         class Sql {
         public:
             static int connect() {
                 try {
-                    sql::Driver *driver;
-                    sql::Connection *con;
-
                     cout << "connecting to mysql server....";
                     driver = get_driver_instance();
                     con = driver->connect("tcp://127.0.0.1:3306", "zillani", "root");
                     cout << "connected" << endl;
-
-                    delete con;
 
                 } catch (sql::SQLException &e) {
                     cout << "# ERR: " << e.what();
@@ -36,6 +33,10 @@ namespace Cpap {
                 cout << endl;
                 return EXIT_SUCCESS;
             }
+            static int close(){
+                delete con;
+                return EXIT_SUCCESS;
+            };
         };
 
     }

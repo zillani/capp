@@ -40,3 +40,8 @@ sudo make install
 ```bash
 g++ main.cpp -o main -lpthread -lboost_system -Wall -I/usr/include/cppconn -L/usr/lib -lmysqlcppconn
 ```
+## Silly issues
+sometimes editor is slow inindexing, 
+just cut paste code and save
+undo-redo auto suggestions to fix
+reload is slow and indexing is slow, so use command line to check compile errors.

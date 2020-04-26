@@ -2,20 +2,25 @@
 #define CPAP_ROUTER_H
 
 #include "../lib/crow_all.h"
+#include "../controller/User.h"
 
-namespace Cpap {
-    class Router {
-    public:
-        static int serve() {
-            crow::SimpleApp app;
+using namespace Cpap;
 
-            CROW_ROUTE(app, "/")([]() {
-                return "Hello world";
-            });
+class Router {
+public:
+     static int serve() {
+        crow::SimpleApp app;
 
-            app.port(8888).multithreaded().run();
-            return 0;
-        }
-    };
-}
+        CROW_ROUTE(app, "/")([]() {
+            return "Hello world";
+        });
+        CROW_ROUTE(app, "/user")([]() {
+            return Controller::UserController::Get();
+        });
+
+        app.port(8888).multithreaded().run();
+        return 0;
+    }
+};
+
 #endif //CPAP_ROUTER_H
