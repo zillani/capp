@@ -1,10 +1,10 @@
-#include "dao/Sql.h"
-#include "router/Router.h"
+#include "dao/sql.h"
+#include "router/router.h"
 
-using namespace Cpap;
+using namespace cpap;
 
 int main() {
-    Dao::Sql::connect();
-    Cpap::Router::serve();
+    dao::Sql::connect();
+    cpap::Router::serve();
     return 0;
 }

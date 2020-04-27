@@ -12,8 +12,8 @@
 
 using namespace std;
 using namespace sql;
-namespace Cpap {
-    namespace Dao {
+namespace cpap {
+    namespace dao {
         sql::Driver *driver;
         sql::Connection *con;
         class Sql {

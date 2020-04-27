@@ -13,7 +13,7 @@
 using namespace std;
 using namespace sql;
 
-namespace Cpap {
+namespace cpap {
     namespace Model {
 
         sql::Driver *driver;
@@ -108,7 +108,7 @@ namespace Cpap {
             static User user;
             static User Get() {
                 try {
-                    Cpap::Dao::Sql::connect();
+                    cpap::dao::Sql::connect();
 
                     con->setSchema("cpap");
                     stmt = con->createStatement();
@@ -138,7 +138,7 @@ namespace Cpap {
 
                 cout << endl;
 
-                Cpap::Dao::Sql::close();
+                cpap::dao::Sql::close();
                 return user;
             };
         };

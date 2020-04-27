@@ -6155,7 +6155,7 @@ int qs_decode(char * qs);
  char * qs_k2v(const char * key, char * const * qs_kv, int qs_kv_size, int nth);
 
 
-/*  Non-destructive lookup of value, based on key.  User provides the
+/*  Non-destructive lookup of value, based on key.  user provides the
  *  destinaton string and length.  */
 char * qs_scanvalue(const char * key, const char * qs, char * val, size_t val_len);
 

@@ -2,10 +2,9 @@
 #define CPAP_ROUTER_H
 
 #include "../lib/crow_all.h"
-#include "../controller/User.h"
+#include "../controller/user.h"
 
-using namespace Cpap;
-namespace Cpap {
+namespace cpap {
 
     class Router {
     public:
@@ -16,7 +15,7 @@ namespace Cpap {
                 return "Hello world";
             });
             CROW_ROUTE(app, "/user")([]() {
-                return Controller::UserController::Get();
+                return controller::UserController::Get();
             });
 
             app.port(8888).multithreaded().run();

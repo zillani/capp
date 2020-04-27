@@ -3,20 +3,19 @@
 
 
 #include "../lib/crow_all.h"
-#include "../model/User.h"
+#include "../model/user.h"
 
-using namespace Cpap;
 using namespace crow;
 
-namespace Cpap {
-    namespace Controller {
+namespace cpap {
+    namespace controller {
         class UserController {
         public:
             static json::wvalue Get() {
 
                 json::wvalue x;
-/*                Model::User result;
-                result = Model::User::Get();*/
+/*                Model::user result;
+                result = Model::user::Get();*/
 
                 x["message"] = "Hello";
                 return x;
