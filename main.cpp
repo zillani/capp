@@ -5,6 +5,6 @@ using namespace Cpap;
 
 int main() {
     Dao::Sql::connect();
-    Router::serve();
+    Cpap::Router::serve();
     return 0;
 }

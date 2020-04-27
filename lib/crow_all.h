@@ -54,7 +54,8 @@
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/operators.hpp>
 #include <vector>
-#include "../controller/User.h"
+
+
 
 
 #if defined(__GNUG__) || defined(__clang__)

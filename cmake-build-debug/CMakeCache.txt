@@ -33,7 +33,7 @@ CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
 
 //Additional command line arguments when CodeBlocks invokes make.
 // Enter e.g. -j<some_number> to get parallel builds
-CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
+CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=-j2
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -231,12 +231,6 @@ cpap_BINARY_DIR:STATIC=/root/cpap/cmake-build-debug
 
 //Value Computed by CMake
 cpap_SOURCE_DIR:STATIC=/root/cpap
-
-//Value Computed by CMake
-cpp-snippets_BINARY_DIR:STATIC=/root/cpap/cmake-build-debug
-
-//Value Computed by CMake
-cpp-snippets_SOURCE_DIR:STATIC=/root/cpap
 
 
 ########################

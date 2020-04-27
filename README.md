@@ -5,7 +5,7 @@
 
 __Execute__
 ```bash
-g++ main.cpp -o main -Wall -I/usr/include/cppconn -L/usr/lib -lmysqlcppconn
+g++ main.cpp -o main -Wall -I/usr/include/cppconn -L/usr/lib -lmysqlcppconn -lboost_system -lpthread
 ```
 
 ## C++ Project structure
@@ -41,7 +41,7 @@ sudo make install
 g++ main.cpp -o main -lpthread -lboost_system -Wall -I/usr/include/cppconn -L/usr/lib -lmysqlcppconn
 ```
 ## Silly issues
-sometimes editor is slow inindexing, 
+sometimes editor is slow indexing, 
 just cut paste code and save
 undo-redo auto suggestions to fix
 reload is slow and indexing is slow, so use command line to check compile errors.

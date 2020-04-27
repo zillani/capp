@@ -8,3 +8,5 @@ add_executable(listing_1.1 concurrency/manning/listings/listing_1.1.cpp)
 add_executable(listing_2.5 concurrency/manning/listings/listing_2.5.cpp)
 add_executable(listing_2.6 concurrency/manning/listings/listing_2.6.cpp)
 add_executable(listing_2.8 concurrency/manning/listings/listing_2.8.cpp)
+
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pthread")

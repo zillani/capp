@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/listing_2.6.dir/concurrency/manning/listings/listing_2.6.cpp.o  -o listing_2.6 
+/usr/bin/c++   -std=c++14 -pthread -g   CMakeFiles/listing_2.6.dir/concurrency/manning/listings/listing_2.6.cpp.o  -o listing_2.6 
